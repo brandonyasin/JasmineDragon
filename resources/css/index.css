@@ -1,0 +1,201 @@
+
+@font-face {
+    font-family: Herculanum;
+    src: url('C:/Users/byasi/OneDrive/Desktop/DevProject1/resources/fonts/Herculanum.ttf') format('ttf');
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  body {
+    border: 6px solid rgb(238, 158, 9);
+    border-radius: 15px;
+    padding-bottom: 5%;
+  }
+
+* {
+    background-color: #03712d;
+    color: white;
+    font-family: Herculanum;
+    border-radius: 15px;
+}
+
+nav{ 
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.navigation{
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px 20px;
+    border: 1px solid rgb(238, 158, 9)
+
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(238, 158, 9);
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    font-size: 19px;
+}
+.content{
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+}
+
+img.irohwtea{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+h1{
+    font-size: 50px;
+}
+
+div.mailing-list{
+    padding: 0px;
+    margin: 0px 0px;
+    border: 0px;
+
+}
+
+div.register{
+    background-color: #1d3e33;
+    margin-top: 0px;
+    margin-bottom: autopx;
+    margin-right: 18px;
+    margin-left: auto;
+    width: 35%;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 450px;
+    right: 18px;
+}
+
+#newsletter-banner{
+    background-color: #1d3e33;
+    text-align: center;
+    border: 1px solid rgb(238, 158, 9);
+    border-radius: 6px;
+}
+
+#newsl-text{
+    color: rgb(168, 160, 160);
+    background-color: #1d3e33;
+    text-align: center;
+}
+
+
+input[type=text] {
+    width: 100%;
+    border: 1px solid rgb(238, 158, 9);
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #1d3e33;
+    margin: 10px auto;
+}
+
+input[type=submit]{
+    background-color: #1d3e33;
+    text-align: center;
+}
+
+input#submit{
+    padding: 5px;
+    height: auto;
+    border: 1px solid rgb(238, 158, 9);
+    border-radius: 4px;
+    margin-top: 10px;
+    
+}
+
+form{
+    background-color: #1d3e33;
+}
+
+label{
+    background-color: #1d3e33;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    margin-left: 18px;
+}
+
+#aboutus{  
+    box-sizing: content-box;
+    border-width: 50%;
+}
+
+img.meandzuko{
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aboutus-text{
+    text-align: center;
+    display: block;
+}
+
+.tea-imgs {
+    float: left;
+    width: 20%;
+    padding: 30px;
+}
+
+.menu::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h4 {
+    text-align: center;
+}
+
+#metal-brew, #Ba-Sing-Quon, #white-lotus-tile, #Bender-Tea, #Red-Blooded-Nephew, #Jasmine-Tea, #Tea-Leaf-Juice, #Appas-Tapioca-Pearls {
+    border: 5px solid rgb(238, 158, 9);
+}
+
+#credits {
+    text-align: center;
+}
+#disclaimer {
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}

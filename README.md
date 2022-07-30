@@ -6,3 +6,4 @@ Take a look for yourself!!
 
 P.S. This is my first ever coding project, so it is FAR from being perfect. The knowledge used to build this project comes from Codecademy and YouTube.
 
+https://tenor.com/view/avatar-gif-18564060
